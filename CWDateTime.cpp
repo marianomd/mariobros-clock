@@ -45,7 +45,7 @@ char *CWDateTime::getMinute(const char *format)
 
 int CWDateTime::getHour()
 {
-  return myTZ.dateTime("h").toInt();
+  return myTZ.dateTime("H").toInt();
 }
 
 int CWDateTime::getMinute()

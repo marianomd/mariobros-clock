@@ -4,7 +4,6 @@
 #include <Arduino.h>
 
 #include <ezTime.h>
-#include <WiFi.h>
 
 class CWDateTime
 {
